@@ -2,6 +2,9 @@ body{
     margin:0;
     padding:0;
     font-family: 'Poppins', sans-serif;
+
+}
+h1,h2,h3,h4{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -16,26 +19,22 @@ body{
     height:auto;
    float: left;
    display: block;
-   /* margin-right: 15px; */
-   /* margin-left: 5%;
-   margin-right: 5%; */
-   /* padding-left: 2%; */
 }
 
 a {
+    font-size: 15px;
     display: inline-block;
     text-decoration: none;
     padding: 10px 35px;
     border: 2px solid black;
     background: yellow;
     color: black;
+    letter-spacing: 1px;
+    text-transform: capitalize;
 }
-/* img {
-    width: 100%;
-    height: 100%;
-} */
 section{
-    height: 400px;
+    height: 350px;
+    padding-top: 40px;
     padding-bottom: 70px;
 }
 /* ======== header section part start o1 ========= */
@@ -46,222 +45,50 @@ section{
      padding-left: 4px;
 }
 
-.mission-content h1,h2 {
+.mission-content h1{
     padding-left: 17px;
     font-size: 31px;
-    line-height: 18px;
     text-transform: capitalize;
     color:rgb(41, 38, 38);
-}
-h2{
-    color:rgb(117, 92, 146);
-    line-height:0;
-}
-.mission {
-    padding-top: 25px;
-}
-
-.mission p {
-    color: #707070;
-    line-height: 22px;
-    font-size: 15px;
-}
-
-/* .mission a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px 35px;
-    border: 2px solid black;
-    background: yellow;
-    color: black;
-} */
-
-.mission span {
-    display: block;
-    padding-top: 20px;
-    font-size: 14px;
-}
-.mission .half-width img{
-    height: 350px;
-    width: 400px;
-}
-
-/* ======== header section part end o1 ========= */
-/* ======== sub-mission section part start o2 ========= */
-.sub-mission{
-    text-align:center;
-}
-.sub-mission .mission-content{
-    border-left: none;
-}
-.sub-mission .mission-content h1,h2 {
-  display:inline-block;
-  margin-bottom: 40px;
-}
-.card {
-    background: pink;
-    width: 30.99%;
-    float: left;
-    margin-right: 25px;
-    border-radius: 6%;
-    box-shadow: 1px 0px 11px 3px rgba(0,0,0,0.66);
-    -webkit-box-shadow: 1px 0px 11px 3px rgba(0,0,0,0.66);
-    -moz-box-shadow: 1px 0px 11px 3px rgba(0,0,0,0.66);
-}
-.one{
-    background: rgb(241, 228, 228);
-}
-.three{
-    background: rgb(243, 227, 227);
-}
-.card-content {
-    text-align: left;
-    padding: 20px;
-}
-
-.card-content img {
-    height: 100px;
-    width: 100px;
-}
-
-.card-content h4 {
-    font-size: 24px;
-    text-transform: capitalize;
-    /* line-height: 48px; */
-    margin-bottom:0;
-    
-}
-
-.card-content p {
-    color: #594343;
-    font-size: 15px;
-    line-height: 22px;
-    /* margin: 0; */
-}
-/* ======== sub-mission section part end o2 ========= */
-/* ======== develop section part start o3 ========= */
-/* .develop-fullWidth{
-    width: 100%;
-    background: url(../images/shapes/shape-1.png);
-    position:relative;
-    background-repeat: no-repeat;
-    background-position: left;
-    z-index: 1;
-
-}
-.develop-fullWidth:before{
-    position:absolute;
-    content:"";
-    left:0;
-    top:0;
-    z-index: -1;
-    opacity: .3;
-}
-
- */
-.develop .left{
-    height: auto;
-    width: 38%;
-    float:left;
-}
-.develop .left img{
-    height: 100%;
-    width: 100%;
-
-}
-.develop .right{
-    float: right;
-    width: 58%;
-
-}
-body{
+    /* padding-top: 10px; */
+    padding-bottom:10px;
     margin:0;
-    padding:0;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
 }
-
-.container{
-    /* margin: 0 30px; */
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-.half-width{
-    width: 50%;
-    height:auto;
-   float: left;
-   display: block;
-   /* margin-right: 15px; */
-   /* margin-left: 5%;
-   margin-right: 5%; */
-   /* padding-left: 2%; */
-}
-
-a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px 35px;
-    border: 2px solid black;
-    background: yellow;
-    color: black;
-}
-/* img {
-    width: 100%;
-    height: 100%;
-} */
-.section-padding{
-     padding-top: 100px;
-     padding-bottom: 100px;
-}
-/* ======== header section part start o1 ========= */
-.mission-content {
-    border-left: 3px solid red;
-    /* height: 103%; */
-    margin-left: 4px; 
-     padding-left: 4px;
-}
-
-.mission-content h1,h2 {
+.mission-content h2{
+    margin-top: 0px;
     padding-left: 17px;
     font-size: 31px;
-    line-height: 18px;
-    text-transform: capitalize;
-    color:rgb(41, 38, 38);
-}
-h2{
-    color:rgb(117, 92, 146);
-    line-height:0;
-}
-.mission {
-    padding-top: 25px;
+    color:#EA6A42;
+    text-transform: capitalize; 
+    margin:0;
 }
 
 .mission p {
     color: #707070;
-    line-height: 22px;
-    font-size: 15px;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+
 }
-
-/* .mission a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px 35px;
-    border: 2px solid black;
-    background: yellow;
-    color: black;
-} */
-
 .mission span {
     display: block;
     padding-top: 20px;
-    font-size: 14px;
+    font-size: 15px;
+    text-transform:lowercase;
 }
 .mission .half-width img{
     height: 350px;
     width: 400px;
 }
+.common-ref{
+    transition:.7 ease all;
+}
 
+.common-ref:hover{
+    background:#053D4C;
+    color: white;
+    transition: .7 ease all;
+}
 /* ======== header section part end o1 ========= */
 /* ======== sub-mission section part start o2 ========= */
 .sub-mission{
@@ -312,11 +139,16 @@ h2{
     color: #594343;
     font-size: 15px;
     line-height: 22px;
+    font-family: 'Poppins', sans-serif;
     /* margin: 0; */
 }
 /* ======== sub-mission section part end o2 ========= */
-/* ======== develop section part start o3 ========= */
 
+
+/* ======== develop section part start o3 ========= */
+.sub-mission-section{
+    height: 450px;
+}
 .develop .left{
     height: auto;
     width: 38%;
@@ -332,8 +164,36 @@ h2{
     padding-bottom: 145px;
 
 }
+ .develop-content h3{
+      letter-spacing: 1px;
+      font-size: 28px;
+      text-transform: capitalize;
+}
+.develop-content p{
+    font-size: 17px;
+    margin-bottom:20px;
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.develop-content a{
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.develop .develop-content span{
+    color: #EA6A42;
+    display: inline-block;
+    padding-bottom: 5px;
+ 
+}
 /* ======== develop section part end o3 ========= */
 /* ======== community section part start o4 ========= */
+
+.community span{
+       color: #EA6A42;
+       display: inline-block;
+       padding-bottom: 5px;
+}
 .community .community-left{
     float: left;
     width: 58%;
@@ -351,34 +211,86 @@ h2{
     float:right;
 
 }
-/* ======== header section part end o4 ========= */
-
-
-
-/* ======== header section part start o1 ========= */
-.sub-mission.footer-content p {
-    text-align: center;
-    font-size: 14px;
+.first{
+    background: #cdd1ce;
 }
+.second{
+    background: #E2E4E5;
+}
+.third{
+    background:#F1E4E4;
+}
+/* ======== community section part end o4 ========= */
 
-footer p {
-    text-align: center;
-    background: color;
-    font-size: 14px;
+/* =========== overview start 05 ========== */
+.overview-section{
+    height: 450px;
+}
+.overview .mission-content h1,h2{
+    margin-bottom:0;
+}
+.overview .mission-content p{
+    margin-top:4px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.overview .card-content{
+    text-align:center;
+
+}
+.overview .card-content h2{
+    margin-top: 28px;
+    margin-bottom: 15px;
+    color: #053D4C;
+    text-transform: capitalize;
+
+}
+.overview .card-content p{
+   padding-bottom: 20px;
+
+}
+.overview a{
+    padding: 10px 35px;
+    font-size: 15px;
+    transition: .7 ease all;
+}
+.success-ref:hover{
+    background: white;;
+    color:rgb(41, 38, 38);
+}
+.team-ref{
+    background: transparent;
+    transition: .3 ease all;
+}
+.team-ref:hover{
+    background:#053D4C;
     color: white;
-    /* padding-top: 0; */
-    margin-top: 0;
 }
 
+/* =========== overview end 05 ========== */
+
+/* ======== footer section part start o6 ========= */
 footer {
-    height: 130px;
+    height: 150px;
     background: #100e11;
+    margin-top: 100px;
 }
-
+.section-footer{
+    padding: 30px 0;
+}
 .sub-mission.footer-content h1,h2 {
-    margin-bottom: 28px;
+    /* margin-bottom: 28px; */
+    color:#EA6A42;
+    margin: 0;
 }
 .sub-mission.footer-content h1{
     color: yellow;
 }
-/* ======== header section part end o1 ========= */
+footer p {
+    text-align: center;
+    margin-top: 0;
+    font-size: 14px;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+}
+/* ======== footer section part end o6 ========= */
